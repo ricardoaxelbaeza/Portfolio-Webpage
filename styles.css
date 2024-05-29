@@ -93,6 +93,7 @@ a{
 body{
   padding:0;
   margin:0;
+  text-align: center;
   /* margin-left:-15px; */
 }
 
@@ -439,20 +440,37 @@ li{
 }
 /* end of penguin css */
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+} */
+
+
+.web-text-container{
+  display:inline-block;
+  padding-bottom:30px;
+
+  /* background-color:red; */
+}
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: 
+    typing 2s forwards;
+  font-size: 1.6rem;
+  width: 0;
+  font-family:'Courier';
+  font-weight:bold;
+  font-size:20px;
+  color:rgb(69,69,69);
 }
 
-.project-title{
-  font-family:Shrikhand;
-  font-size:50px;
-  font-weight:100;
-  text-align:center;
-  animation: fadeIn 4s;
-  color:rgb(69,69,69);
-  padding:30px;
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
+
 
 
 
@@ -500,17 +518,17 @@ li{
 @media(max-width:1200px){
   #sites-container{
   display:grid;
-  grid-template-columns: repeat(1, 420px);
-  grid-auto-rows: 206px;
+  grid-template-columns: repeat(1, 250px);
+  grid-auto-rows: 250px;
   justify-content:center;
   
 }
 
 
 .site-img{
-  height:100%;
-  width:100%;
-  object-fit: contain;
+  /* height:100%;
+  width:100%; */
+  object-fit: cover;
 }
 
 
