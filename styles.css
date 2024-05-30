@@ -482,19 +482,19 @@ li{
   justify-content:center;
   grid-column-gap: 50px;
   grid-row-gap: 80px;
-   animation: fadeIn 3s;
 }
 
 
 .web-container{
-  border:1px solid grey;
-  animation: fadeIn 3s;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
 }
 
 .site-img{
   height:100%;
   width:100%;
   object-fit: contain;
+  border-radius: 20px;
 }
 
 
@@ -526,9 +526,18 @@ li{
 
 
 .site-img{
-  /* height:100%;
-  width:100%; */
   object-fit: cover;
+}
+
+.web-container{
+  
+  border-radius: 50px;
+ 
+
+}
+
+.site-img{
+  border-radius: 50px;
 }
 
 
