@@ -209,12 +209,55 @@ li{
 }
 
 .special-text{
-  display:static;
+  
+  
   background: linear-gradient(316deg, #50d8d7 30%, #923993 74%);
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#contact-section{
+  width:320px;
+  /* background-color:red; */
+  display: grid;
+  grid-gap:5px;
+  grid-template-columns: 200px 30px 30px 30px;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+}
+
+/* TODO:figure out how to group repeated icon code (padding,border-radius,etc) */
+
+.fa-linkedin-in{
+  color:white;
+  background-color:#0077B5;
+  padding:5px;
+  border-radius: 5px;
+  margin-top:5px; /* centers icon vertically */
+}
+
+
+.fa-github{
+  color:white;
+  background-color:#9477cb;
+  padding:5px;
+  border-radius: 5px;
+  margin-top:5px;
+}
+
+.fa-envelope{
+  color:white;
+  background-color:#0b9ea2;
+  padding:5px;
+  border-radius: 5px;
+  margin-top:5px;
+}
+
+
+
 
 #penguin{
   display:flex;
@@ -482,7 +525,10 @@ li{
   justify-content:center;
   grid-column-gap: 50px;
   grid-row-gap: 80px;
-}
+} 
+
+
+
 
 
 .web-container{
@@ -496,6 +542,10 @@ li{
   object-fit: contain;
   border-radius: 20px;
 }
+
+
+
+
 
 
 
