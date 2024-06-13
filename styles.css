@@ -590,5 +590,10 @@ li{
   border-radius: 50px;
 }
 
+#contact-section{
+  width:420px;
+  grid-template-columns: 250px 40px 30px 30px 30px;
+}
+
 
 }
