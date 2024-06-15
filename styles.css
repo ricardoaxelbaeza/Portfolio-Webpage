@@ -516,6 +516,13 @@ margin-top:80px;
   color:rgb(69,69,69);
 }
 
+.text-heading{
+  font-family:'Courier';
+  font-weight:bold;
+  font-size:20px;
+  color:rgb(69,69,69);
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
