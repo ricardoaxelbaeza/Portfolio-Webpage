@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+10&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 
 /* CSS */
@@ -95,6 +96,7 @@ body{
   margin:0;
   text-align: center;
   /* margin-left:-15px; */
+  margin-bottom:30px;
 }
 
 /* nav-bar styling */
@@ -222,7 +224,7 @@ li{
   /* background-color:red; */
   display: grid;
   grid-gap:5px;
-  grid-template-columns: 230px 30px 30px 30px;
+  grid-template-columns: 230px 40px 30px 30px;
   justify-content:center;
   margin-left:auto;
   margin-right:auto;
@@ -528,7 +530,11 @@ margin-top:80px;
   to { width: 100% }
 }
 
-
+.section-title{
+  font-family: "Lilita One", sans-serif;
+  font-size: 50px;
+  margin-bottom:30px
+}
 
 
 
@@ -539,11 +545,9 @@ margin-top:80px;
   justify-content:center;
   grid-column-gap: 50px;
   grid-row-gap: 80px;
+  margin-bottom:80px;
 } 
 
-#other-container{
-  margin-top: 80px;
-}
 
 
 .web-container,.game-container{
@@ -595,6 +599,67 @@ margin-top:80px;
 .btn-txt:hover{
   color:white;
 }
+
+
+.contact-footer{
+  margin-top:120px;
+  width:320px;
+  /* background-color:red; */
+  display: grid;
+  grid-gap:5px;
+  grid-template-columns: 160px 160px 160px;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.footer-desc-txt{
+  font-family:"Lato",sans-serif;
+  margin-top: 10px;
+}
+
+.fa-linkedin-in-btm{
+  color:white;
+  background-color:#0077B5;
+  padding:15px;
+  border-radius: 50px;
+  margin-top:5px; /* centers icon vertically */
+  width:50px;
+}
+
+
+.fa-github-btm{
+  color:white;
+  background-color:#9477cb;
+  padding:15px;
+  border-radius: 50px;
+  margin-top:5px;
+  width:50px;
+}
+
+.fa-envelope-btm{
+  color:white;
+  background-color:#0b9ea2;
+  padding:15px;
+  border-radius: 50px;
+  margin-top:5px;
+  width:50px;
+}
+
+.baeza-signature{
+  margin-top:20px;
+  font-family:"Jersey 10",sans-serif;
+  font-size: 30px;
+  color:grey;
+}
+
+.signature-txt{
+  font-size: 10px;
+  font-family:sans-serif;
+  color:grey;
+}
+
+
 
 
 
