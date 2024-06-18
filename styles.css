@@ -194,6 +194,15 @@ li{
   z-index:6;
 }
 
+#contact-section{
+  width:420px;
+  grid-template-columns: 240px 30px 30px 30px 30px;
+}
+
+.contact-footer{
+  grid-template-columns: 90px 90px 90px;
+}
+
 
 /* end of nav-bar styling */
 
