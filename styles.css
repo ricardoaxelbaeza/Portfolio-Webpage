@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+10&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
 /* CSS */
@@ -191,6 +191,7 @@ li{
 #hamburger-menu{
   visibility:visible;
   position:absolute;
+  z-index:6;
 }
 
 
@@ -531,9 +532,10 @@ margin-top:80px;
 }
 
 .section-title{
-  font-family: "Lilita One", sans-serif;
-  font-size: 50px;
-  margin-bottom:30px
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  margin-bottom:30px;
+  color: rgb(69,69,69);
 }
 
 
@@ -711,6 +713,15 @@ margin-top:80px;
   width:420px;
   grid-template-columns: 240px 30px 30px 30px 30px;
 }
+
+.contact-footer{
+  grid-template-columns: 130px 130px 130px;
+  
+}
+
+
+
+
 
 
 }
